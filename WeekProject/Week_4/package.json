@@ -1,15 +1,19 @@
 {
   "name": "file_processor",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create a Node.js program that reads a list of file paths from a configuration file and processes each file asynchronously. The processing involves counting the number of words in each file and displaying the results.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "Start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fs": "0.0.1-security",
+    "nodemon": "^3.0.1",
     "word-count": "^0.2.2"
-  }
+  },
+  "devDependencies": {}
 }
